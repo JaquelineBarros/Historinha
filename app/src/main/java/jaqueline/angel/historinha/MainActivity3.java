@@ -29,7 +29,7 @@ public class MainActivity3 extends AppCompatActivity {
     }
     public void btnClick3(View v){
 
-        Intent i = new Intent(this, MainActivity3.class);
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
         finish();
     }

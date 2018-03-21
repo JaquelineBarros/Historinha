@@ -26,6 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.butt2);
         textView1 = (TextView) findViewById(R.id.text1);
         textView2 = (TextView) findViewById(R.id.text2);
+
         valFromAct1 = getIntent().getExtras().getString("Value");
         textView1.setText(valFromAct1);
         valFromAct2 = getIntent().getExtras().getString("Value");
